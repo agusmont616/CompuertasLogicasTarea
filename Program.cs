@@ -19,5 +19,12 @@ class Program
         
         or1.Calcular();
         Console.WriteLine(or1.Salida);
+        
+        CompuertaNOT not1 = new CompuertaNOT("NOT-1");
+        
+        not1.AgregarEntrada("Entrada-1", 0);
+        not1.Calcular();
+        
+        Console.WriteLine(not1.Salida);
     }
 }
